@@ -1,0 +1,51 @@
+{
+	#######
+	# DATASET PATH
+	#######
+	"TRAINING_DATASET": "/home/inayat/imagedatasets/vgg_face_dataset/files/faces",
+	#####
+	### DATASET NAME
+	#####
+	"DATASET_NAME": "vggfaces",
+	
+	"IMAGE_EXT": ".png",
+
+	# class names are extracted from the dataset folder names
+	# in the training_dataset path contains images of each class
+	# in their respective folders; which must be named according to class names
+	###
+	
+	
+	
+	####
+	#  mini batch-size of 16. 
+	# You can use this 32 or 64 if you have more powerful machine.
+	##
+	"MINI_BATCH_SIZE": 16,
+	
+	###
+	# prepossed hdf5 database path
+	##
+	"MINI_BATCH_DATASET_OUT_PATH": "./output",
+	
+	###
+	#####
+	### hdf5 database name
+	"HDF5_DATABASE_FILE": "vggfaces-trainDevTest.hdf5",
+	####
+	## 20% of the data will  be used for validation by default
+	##
+	"VALIDATION_SIZE": 0.2,
+	
+	"TEST_SIZE": 0,
+	
+	###
+	#
+	##
+	"IMAGE_SIZE": 112,
+	
+	###
+	#
+	##
+	"NUM_CHANNELS":  3
+}
