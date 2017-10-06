@@ -1,6 +1,6 @@
 # Tensorflow: From Building of  Database to Training and Prediction of Deep Convolutional Neural Network 
 
-![ ](/home/inayat/PyImageSearch/Computer-Vision-4-Faces/workspace/cplusAndPython/tensorflowCNNfromTrainingToTesting/smallVggFace.png  "A Small VggFace CNN Architecture")
+![ ](./smallVggFace.png  "A Small VggFace CNN Architecture")
 
 This is a very Simple example of showing how to build image dataset from your own collection of images, how to  train  multiple class classifier using tensorflow CNN and how to predict the class of an object in an unseen image.
 
